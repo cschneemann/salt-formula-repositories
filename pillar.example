@@ -1,0 +1,24 @@
+repositories:
+  obs_2.9_sp3:
+     name: OBS_2.9_sp3
+     enabled: true
+     baseurl: http://download.opensuse.org/repositories/OBS:/Server:/2.9/SLE_12_SP3/
+     gpgkey: http://download.opensuse.org/repositories/OBS:/Server:/2.9/SLE_12_SP3/repodata/repomd.xml.key
+     gpgautoimport: true
+     refresh: true
+  openSUSE_Tools:
+     name: openSUSE_Tools
+     enabled: true
+     baseurl: https://download.opensuse.org/repositories/openSUSE:/Tools/SLE_12_SP4/
+     gpgkey: https://download.opensuse.org/repositories/openSUSE:/Tools/SLE_12_SP4/repodata/repomd.xml.key
+     gpgautoimport: true
+     refresh: true
+  openSUSE_python_backports:
+     name: openSUSE_python_backoprts
+     enabled: true
+     baseurl: https://download.opensuse.org/repositories/devel:/languages:/python:/backports/SLE_12_SP4/
+     gpgkey: https://download.opensuse.org/repositories/devel:/languages:/python:/backports/SLE_12_SP4/repomd.xml.key
+     gpgautoimport: true
+     refresh: true
+
+
